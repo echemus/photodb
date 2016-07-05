@@ -1,0 +1,1 @@
+ find /nfs/FileShare/Photographs/ -type f -exec ~/bin/photoname.sh '{}' \; > /home/esplen/src/photodb/populate.sql

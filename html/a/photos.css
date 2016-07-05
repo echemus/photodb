@@ -1,0 +1,189 @@
+.photoOuter
+{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.photoInner
+{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+
+.content
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.photo
+{
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.photocard
+{
+    width: 260px;
+    height: 290px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.options
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 260px;
+    overflow: auto;
+    height: 240px;
+    width: 240px;
+}
+
+.topTitle
+{
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:
+        -2px -2px 0 white,
+         2px -2px 0 white,
+        -2px  2px 0 white,
+         2px  2px 0 white;
+}
+
+.topTitleBox
+{
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    position: fixed;
+    left: 5px;
+    top: 0px;
+}
+
+.topControlBox
+{
+    margin-right:20px;
+    right: 0px;
+    top: 20px;
+    position: fixed;
+}
+
+.copyrightBox
+{
+    top: 30px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.debug
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 0.75em;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+.caption
+{
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.detail
+{
+    font-size: 0.5em;
+    font-family: sans-serif;
+}
+
+.navtext
+{
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.tinytext
+{
+    font-size: 0.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.tags
+{
+    visibility: hidden;
+    position: fixed;
+    border-radius: 10px;
+    top: 100px;
+    left: 40px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.taginner
+{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.photobutton
+{
+    border: 2px solid #060;
+    border-radius: 5px;
+    width: 40px;
+    height: 15px;
+    background-color: #b2d1b2;
+    padding: 4px 10px 6px;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.75em;
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    top-margin: 10px;
+}
